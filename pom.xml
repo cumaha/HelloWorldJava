@@ -5,7 +5,7 @@
 	<artifactId>HelloWorldJava</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>Hello World Java</name>
+	<name>HelloWorldJava</name>
 	<description>Learn Java JSP and Servlet</description>
 
 	<dependencies>
@@ -49,4 +49,13 @@
 			</plugin>			
 		</plugins>
 	</build>
+
+<distributionManagement>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>devops-training-snapshots</name>
+        <url>http://localhost:8081/artifactory/libs-snapshot-local</url>
+    </snapshotRepository>
+</distributionManagement>
+
 </project>
